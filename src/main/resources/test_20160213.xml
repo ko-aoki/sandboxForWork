@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <ns1:foo xmlns:ns1="http://zzz.jp/xsd">
+            <ns1:return>
+                <ns4:fooElm xmlns:ns4="http://zzz.jp/t/xsd">2</ns4:fooElm>
+                <!--
+                                <fooElm>2</fooElm>
+-->
+            </ns1:return>
+        </ns1:foo>
+    </soapenv:Body>
+</soapenv:Envelope>
