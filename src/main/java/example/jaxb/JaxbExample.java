@@ -55,6 +55,13 @@ public class JaxbExample {
             e.printStackTrace();
         } catch (JAXBException e) {
             e.printStackTrace();
+        } finally {
+            try {
+                if (xsr != null) {
+                    xsr.close();
+                }
+            } catch (XMLStreamException e) {
+            }
         }
     }
 }
